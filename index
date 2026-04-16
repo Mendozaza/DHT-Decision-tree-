@@ -2,3 +2,36 @@
 /styles.css
 /app.js
 /tree.json
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Decision Tree Demo</title>
+
+  <!-- Link to stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Decision Tree Demo</h1>
+    <p class="sub">Click a button to move through the decision tree.</p>
+
+    <div class="card">
+      <div id="question"></div>
+      <div id="choices"></div>
+      <div id="result"></div>
+
+      <div class="actions">
+        <button id="backBtn">Back</button>
+        <button id="restartBtn">Restart</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Link to JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
